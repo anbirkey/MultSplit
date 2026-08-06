@@ -1,5 +1,6 @@
 Multilayer modeling of shear wave splitting results using the algorithm of Silver and Savage (1994). Includes a distribution of MSAT (Walker and Wookey, 2012). See the Wiki for more information.
 
+
 References:
 Silver, P. G., & Savage, M. K. (1994). The interpretation of shear-wave splitting parameters in the presence of two anisotropic layers. Geophysical Journal International, 119(3), 949-963.
 
