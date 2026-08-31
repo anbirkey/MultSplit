@@ -78,22 +78,22 @@ switch model
     case 'two'
         
         % One-layer solution, model to test, fast directions, parameters
-        final_model = ftest_1l(onel,mod_two,phi,2,4);
+        final_model = ftest_1l_new(onel,mod_two,phi,2,4,0.01);
 
     case 'dip_2l'
 
         % One-layer solution, model to test, fast directions, parameters
-        final_model = ftest_1l(onel,mod_dip,phi,2,2);
+        final_model = ftest_1l_new(onel,mod_dip,phi,2,2,0.01);
         
     case 'dip_3l'
         
         % One-layer solution, model to test, fast directions, parameters
-        final_model = ftest_1l(onel,mod_dip,phi,2,4);
+        final_model = ftest_1l_new(onel,mod_dip,phi,2,4,0.01);
         
     case 'three'
         
         % One-layer solution, model to test, fast directions, parameters
-        final_model = ftest_1l(onel,mod_three,phi,2,6);
+        final_model = ftest_1l_new(onel,mod_three,phi,2,6,0.01);
         
 end 
 
