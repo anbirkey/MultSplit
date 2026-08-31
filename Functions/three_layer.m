@@ -40,9 +40,9 @@ else
 
     % Determine which effective splitting function to use
     if max(phi_mod)==180
-        split_func = @MS_effective_splitting_mod;
+        split_func = @MS_effective_splitting_SS_vec_mod;
     elseif max(phi_mod)==90
-        split_func = @MS_effective_splitting_N_SS;
+        split_func = @MS_effective_splitting_SS_vec;
     end
 
     for i=1:m1
