@@ -24,7 +24,7 @@ if max(phi_hor(:))>90
             phiv=[phi_dip(j) phi_hor(i)];
             dtv=[dt_dip(j) dt_hor(i)];
 
-            [tmp_fast,tmp_dt]=MS_effective_splitting_mod(freq,j,phiv,dtv);
+            [tmp_fast,tmp_dt]=MS_effective_splitting_SS_vec_mod(freq,j,phiv,dtv);
 
             fast(i,j)=tmp_fast;
             delay(i,j)=tmp_dt;
@@ -93,7 +93,7 @@ elseif max(phi_hor(:))<90
             phiv=[phi_dip(j) phi_hor(i)];
             dtv=[dt_dip(j) dt_hor(i)];
 
-            [tmp_fast,tmp_dt]=MS_effective_splitting_N(freq,j,phiv,dtv);
+            [tmp_fast,tmp_dt]=MS_effective_splitting_SS_vec(freq,j,phiv,dtv);
 
             fast(i,j)=tmp_fast;
             delay(i,j)=tmp_dt;
