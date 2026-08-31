@@ -167,6 +167,6 @@ ylabel('Bandfit', 'FontName', 'Arial', 'FontWeight', 'bold');
 
 %set(gca,'FontName','Times');
 
-sgtitle([num2str(length(mod_final)), ' robust mod_finals'], 'FontName', 'Arial');
+sgtitle([num2str(length(mod_final)), ' Robust models'], 'FontName', 'Arial');
 
 end
