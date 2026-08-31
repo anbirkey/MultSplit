@@ -229,5 +229,5 @@ ylabel('Bandfit', 'FontWeight', 'bold');
 
 %set(gca,'FontName','Times');
 
-sgtitle([num2str(length(model)), ' robust models']);
+sgtitle([num2str(length(model)), ' Robust models']);
 end
