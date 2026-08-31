@@ -18,7 +18,7 @@ baz_plot=1:360;
             for i=1:length(phiv)
                 for j=1:360
 
-                    [tmp_fast,tmp_dt]=MS_effective_splitting_mod(freq,j,phiv(i,:),dtv(i,:));
+                    [tmp_fast,tmp_dt]=MS_effective_splitting_SS_vec_mod(freq,j,phiv(i,:),dtv(i,:));
 
                     fast(i,j)=tmp_fast;
                     delay(i,j)=tmp_dt;
@@ -87,7 +87,7 @@ baz_plot=1:360;
             for i=1:length(phiv)
                 for j=1:360
 
-                    [tmp_fast,tmp_dt]=MS_effective_splitting_N(freq,j,phiv(i,:),dtv(i,:));
+                    [tmp_fast,tmp_dt]=MS_effective_splitting_SS_vec(freq,j,phiv(i,:),dtv(i,:));
 
                     fast(i,j)=tmp_fast;
                     delay(i,j)=tmp_dt;
