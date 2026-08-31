@@ -1,4 +1,4 @@
-function [final_model]=ftest_1l(onel,model,phi,p1,p2,mod_dt,alpha)
+function [final_model]=ftest_1l(onel,model,phi,p1,p2,alpha)
 
 % Function to test layered models against one layer
 
