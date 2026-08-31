@@ -97,5 +97,5 @@ ylabel('Bandfit', 'FontWeight', 'bold');
 
 set(gca,'FontName','Arial','FontSize',12);
 
-sgtitle([num2str(length(model)), ' robust models']);
+sgtitle([num2str(length(model)), ' Robust models']);
 end
